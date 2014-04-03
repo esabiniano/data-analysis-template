@@ -1719,17 +1719,17 @@ init_mathjax();
     <!-- Open Graph tags -->
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Project Report"/>
-            <meta property="og:url" content="http://benoitdherin.github.io/data-analysis-template/nb4.html"/>
-            <meta property="og:description" content="In this notebook, you'll sumarize your finding for the class presentation. The class presentation will use this notebook in slide mode, as I do during lecture time. You'll need to download the following zip file, unzip it, and run the following notebook install-support.ipynb to install the slide ..."/>
+            <meta property="og:url" content="http://esabiniano.github.io/data-analysis-template/nb4.html"/>
+            <meta property="og:description" content="{% notebook NB4_project_report.ipynb cells[:] %}"/>
 
     <!-- Bootstrap -->
-        <link rel="stylesheet" href="http://benoitdherin.github.io/data-analysis-template/theme/css/bootstrap.min.css" type="text/css"/>
-    <link href="http://benoitdherin.github.io/data-analysis-template/theme/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://esabiniano.github.io/data-analysis-template/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="http://esabiniano.github.io/data-analysis-template/theme/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="http://benoitdherin.github.io/data-analysis-template/theme/css/pygments.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://benoitdherin.github.io/data-analysis-template/theme/css/style.css" type="text/css"/>
+    <link href="http://esabiniano.github.io/data-analysis-template/theme/css/pygments.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://esabiniano.github.io/data-analysis-template/theme/css/style.css" type="text/css"/>
 
-        <link href="http://benoitdherin.github.io/data-analysis-template/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+        <link href="http://esabiniano.github.io/data-analysis-template/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
               title="Data Analysis Project ATOM Feed"/>
 
     
@@ -1766,7 +1766,7 @@ init_mathjax();
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="http://benoitdherin.github.io/data-analysis-template/" class="navbar-brand">
+            <a href="http://esabiniano.github.io/data-analysis-template/" class="navbar-brand">
 Data Analysis Project            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -1777,7 +1777,7 @@ Data Analysis Project            </a>
                     <li><a href="nb1">Data Gathering</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="http://benoitdherin.github.io/data-analysis-template/archives.html"><i class="fa fa-th-list"></i>Archives</a></li>
+                <li><a href="http://esabiniano.github.io/data-analysis-template/archives.html"><i class="fa fa-th-list"></i>Archives</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -1792,7 +1792,7 @@ Data Analysis Project            </a>
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="http://benoitdherin.github.io/data-analysis-template/nb4.html"
+                    <a href="http://esabiniano.github.io/data-analysis-template/nb4.html"
                        rel="bookmark"
                        title="Permalink to Project Report">
                         Project Report
@@ -1813,36 +1813,7 @@ Data Analysis Project            </a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>In this notebook, you'll sumarize your finding for the class presentation.</p>
-<p>The class presentation will use this notebook in slide mode, as I do during lecture time.</p>
-<p>You'll need to download the following <a href="https://github.com/fperez/nb-slideshow-template/archive/master.zip">zip file</a>, unzip it, and run the following notebook <code>install-support.ipynb</code> to install the slide capabilities.</p>
-<p>The notebook <code>notebook-slideshow-example.ipynb</code> will give you examples on how to use slides within the iPython notebook.</p>
-<p>You should also write this notebook so that you can convert it nicely into a pdf document using the commands</p>
-<pre><code>ipython nbconvert NB4_report.pynb --to latex
-pdflatex NB4_report.tex</code></pre>
-<p>See <a href="http://ipython.org/ipython-doc/rel-1.0.0/interactive/nbconvert.html">here</a> for further references on how to do that.</p>
-<p>In this notebook, you'll</p>
-<ul>
-<li><p>describe your problem as stated in the propectus</p></li>
-<li><p>comment on your data sources, on their format, on the difficulties to get them</p></li>
-<li><p>present the main challenge you encountered</p></li>
-<li><p>present your finding in the form of expresive graphics</p></li>
-</ul>
-<p>Be sure to include an introduction section motivating your visualizations, with a description of the substantive context and why it is interesting.</p>
-<p>Cite the source of the data and any other references that you used in carrying out your project.</p>
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="team-members-responsible-for-this-notebook">Team members responsible for this notebook:</h2>
-<p>List the team members contributing to this notebook, along with their responsabilities:</p>
-<ul>
-<li>team member 1 <strong>name</strong>: team member 1 <strong>responsabilities</strong></li>
-<li>team member 2 <strong>name</strong>: team member 2 <strong>responsabilities</strong></li>
-<li>etc.</li>
-</ul>
-<p>I advise you to work at least in pairs for each project notebook, as you did for the homework assignments. Of course, all team members may participate to each notebook.</p>
-</div></p>
+                <p>{% notebook NB4_project_report.ipynb cells[:] %}</p>
             </div>
             <!-- /.entry-content -->
         </article>
@@ -1855,7 +1826,7 @@ pdflatex NB4_report.tex</code></pre>
     <section>
         <ul class="list-group list-group-flush">
                 <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i>Social</h4></li>
-                    <li class="list-group-item"><a href="https://github.com/BenoitDherin/data-analysis-template"><i
+                    <li class="list-group-item"><a href="https://github.com/esabiniano/data-analysis-template"><i
                             class="fa fa-view on github-square fa-lg"></i>View on Github
                     </a></li>
 
@@ -1893,7 +1864,7 @@ pdflatex NB4_report.tex</code></pre>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2014 Benoit Dherin
+         <div class="col-xs-10">&copy; 2014 Elizabeth Sabiniano
             &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>              <p><small>  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
@@ -1908,10 +1879,10 @@ pdflatex NB4_report.tex</code></pre>
 <script src="http://code.jquery.com/jquery.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="http://benoitdherin.github.io/data-analysis-template/theme/js/bootstrap.min.js"></script>
+<script src="http://esabiniano.github.io/data-analysis-template/theme/js/bootstrap.min.js"></script>
 
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="http://benoitdherin.github.io/data-analysis-template/theme/js/respond.min.js"></script>
+<script src="http://esabiniano.github.io/data-analysis-template/theme/js/respond.min.js"></script>
 
 </body>
 </html>
